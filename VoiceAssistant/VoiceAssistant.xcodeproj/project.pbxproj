@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C8C8016A896CCF4A168FB95 /* Pods_VoiceAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9426AB37C59D0AAC639E6CC4 /* Pods_VoiceAssistant.framework */; };
+		4DFB66F4274B6504B59118EA /* Pods_VoiceAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE87E26A063699358A43A4 /* Pods_VoiceAssistant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3718572C56BD307F903F5FC9 /* Pods-VoiceAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAssistant.release.xcconfig"; path = "Target Support Files/Pods-VoiceAssistant/Pods-VoiceAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		363A4D27820DA70F7C57E678 /* Pods-VoiceAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAssistant.debug.xcconfig"; path = "Target Support Files/Pods-VoiceAssistant/Pods-VoiceAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		52A31F982D7F0AFB00889B19 /* VoiceAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VoiceAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70299B86A840451F7E8B1EAF /* Pods-VoiceAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAssistant.debug.xcconfig"; path = "Target Support Files/Pods-VoiceAssistant/Pods-VoiceAssistant.debug.xcconfig"; sourceTree = "<group>"; };
-		9426AB37C59D0AAC639E6CC4 /* Pods_VoiceAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8009FC4D3542C7E189E61A09 /* Pods-VoiceAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAssistant.release.xcconfig"; path = "Target Support Files/Pods-VoiceAssistant/Pods-VoiceAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		8DCE87E26A063699358A43A4 /* Pods_VoiceAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -43,26 +43,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8C8016A896CCF4A168FB95 /* Pods_VoiceAssistant.framework in Frameworks */,
+				4DFB66F4274B6504B59118EA /* Pods_VoiceAssistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DFE5E9FCDAEDE1725BAD919 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9426AB37C59D0AAC639E6CC4 /* Pods_VoiceAssistant.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		38251D848517FCC81525F83C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70299B86A840451F7E8B1EAF /* Pods-VoiceAssistant.debug.xcconfig */,
-				3718572C56BD307F903F5FC9 /* Pods-VoiceAssistant.release.xcconfig */,
+				363A4D27820DA70F7C57E678 /* Pods-VoiceAssistant.debug.xcconfig */,
+				8009FC4D3542C7E189E61A09 /* Pods-VoiceAssistant.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -73,7 +65,7 @@
 				52A31F9A2D7F0AFB00889B19 /* VoiceAssistant */,
 				52A31F992D7F0AFB00889B19 /* Products */,
 				38251D848517FCC81525F83C /* Pods */,
-				1DFE5E9FCDAEDE1725BAD919 /* Frameworks */,
+				721901341E34D0D367249AAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +75,14 @@
 				52A31F982D7F0AFB00889B19 /* VoiceAssistant.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		721901341E34D0D367249AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DCE87E26A063699358A43A4 /* Pods_VoiceAssistant.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A31FA02D7F0AFB00889B19 /* Build configuration list for PBXNativeTarget "VoiceAssistant" */;
 			buildPhases = (
-				A7BA0E9770E58CDB76A02CBE /* [CP] Check Pods Manifest.lock */,
+				98313390B17C2AEE9781D6AD /* [CP] Check Pods Manifest.lock */,
 				52A31F932D7F0AFB00889B19 /* Headers */,
 				52A31F942D7F0AFB00889B19 /* Sources */,
 				52A31F952D7F0AFB00889B19 /* Frameworks */,
@@ -164,7 +164,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A7BA0E9770E58CDB76A02CBE /* [CP] Check Pods Manifest.lock */ = {
+		98313390B17C2AEE9781D6AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,7 +201,7 @@
 /* Begin XCBuildConfiguration section */
 		52A31FA12D7F0AFB00889B19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70299B86A840451F7E8B1EAF /* Pods-VoiceAssistant.debug.xcconfig */;
+			baseConfigurationReference = 363A4D27820DA70F7C57E678 /* Pods-VoiceAssistant.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
@@ -239,7 +239,7 @@
 		};
 		52A31FA22D7F0AFB00889B19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3718572C56BD307F903F5FC9 /* Pods-VoiceAssistant.release.xcconfig */;
+			baseConfigurationReference = 8009FC4D3542C7E189E61A09 /* Pods-VoiceAssistant.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;

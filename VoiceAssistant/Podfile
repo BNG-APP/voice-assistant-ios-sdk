@@ -5,7 +5,6 @@ target 'VoiceAssistant' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Socket.IO-Client-Swift'
-  pod 'WebRTC'
   # Pods for VoiceAssistant
 
 end
