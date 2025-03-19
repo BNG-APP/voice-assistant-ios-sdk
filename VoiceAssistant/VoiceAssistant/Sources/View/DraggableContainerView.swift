@@ -32,7 +32,6 @@ class DraggableContainerView: UIView {
     
     private lazy var textView: UILabel = {
         let label = UILabel()
-//        label.textColor = .white
         label.textColor = UIColor(hex: themeConfig.response.configJson.themes.light.chat.bot.textColor)
         label.font = .systemFont(ofSize: 14, weight: .regular)
         label.numberOfLines = 0
@@ -42,7 +41,6 @@ class DraggableContainerView: UIView {
     
     private lazy var backgroundView: UIView = {
         let view = UIView()
-//        view.backgroundColor = UIColor(hex: "#E15141")
         view.backgroundColor = UIColor(hex: themeConfig.response.configJson.themes.light.chat.bot.messageBgcolor)
         view.layer.cornerRadius = 5
         view.clipsToBounds = true
@@ -131,7 +129,6 @@ class DraggableContainerView: UIView {
     @objc private func holdCallButtonTapped() { }
     
     private func noInternetPopup() {
-//        guard let viewController else { return }
         DispatchQueue.main.async {
             AlertManager.showAlert(
                 on: self.viewController,
